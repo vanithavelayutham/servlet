@@ -1,0 +1,102 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOnO8OvBKUH9OxS5m63Qv2v-1Ch-tLoY9yXSnh94RKkTUEp6hScQ" type="image"/>
+<style>
+.well{
+text-align:center;
+font-size: 20px;
+color:White;
+background-color: #384963;
+margin-bottom: 5px;
+background-position: 0% 25%;
+background-size:cover;
+background-repeat: no-repeat;
+height:100px;
+}
+
+.jumbotron{
+
+background-color: #42f4f4;
+margin-bottom: 0px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqW2PvnvjwyfWSpZMERePAXqObaNTtslHruKVtjWNpBUqxpsNQQ);
+background-position: 15% 25%;
+background-size:cover;
+background-repeat: no-repeat;
+height:500px;
+}
+.red{
+color:#ff1000;
+}
+.green{
+color:green;
+}
+.white{
+color:white;
+}
+label{
+display:inline-block;
+width:80%;
+text-align: left;
+}
+
+</style>
+
+<body>
+
+<div class ="container-fluid">
+<div class ="well"> Welcome to Account Opening Form</div>
+<div class ="jumbotron">
+
+<form method="get" action="AccSave"class ="form-inline">
+
+
+<table>  
+    <tr><td>Id:</td><td><input type="number" name="id"/></td></tr> 
+    <tr><td>Account Holder Name:</td><td><input type="text" name="name"/></td></tr> 
+    <tr><td>PAN Number:</td><td><input type="text" name="pan"/></td></tr>
+    <tr><td>Phone Number:</td><td><input type="text" name="phone"/></td></tr>
+    <tr><td>Email:</td><td><input type="email" name="email"/></td></tr>
+    <tr><td>Village/Street:</td><td><input type="text" name="street"/></td></tr>
+    <tr><td>District:</td><td><input type="text" name="dist"/></td></tr>
+     <tr><td>State:</td><td>  
+    <select name="state" style="width:150px">  
+    <option>Tamilnadu</option>  
+    <option>kerala</option> 
+    </select>  
+    </td></tr>
+    <tr><td>Country:</td><td>  
+    <select name="country" style="width:150px">  
+    <option>India</option>  
+    <option>USA</option>  
+    <option>UK</option>  
+    <option>Other</option>  
+    </select>  
+    </td></tr> 
+     <tr><td>Account Type:</td><td>  
+    <select name="type" style="width:150px">  
+    <option>savings</option>  
+    <option>commercial</option> 
+    </select>  
+    </td></tr>
+    <tr><td colspan="2"><button type="submit" class="btn-success">Add Account Holder
+<span class="glyphicon glyphicon-hand-left"></span>
+</button><br/></td></tr>  
+    </table>  
+
+<a href="AccView">view  Account Holders</a> 
+</form>
+</div>
+</div>
+
+</body>
+
+</html>
