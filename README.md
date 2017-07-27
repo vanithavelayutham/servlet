@@ -862,3 +862,18 @@ This servlet class is used to get account holder details using their id, then al
         }  
       
     }  
+    ## snapshots
+![login](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/login.png)
+
+![manager](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/manager.png)
+
+![insert and send mail](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/insert%20mail.png)
+
+![view](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/view.png)
+
+![edit](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/update.png)
+
+![delete](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/delete.png)
+
+![assistant manager](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/ass%20manager.png)
+
