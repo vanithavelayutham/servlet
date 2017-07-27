@@ -863,17 +863,24 @@ This servlet class is used to get account holder details using their id, then al
       
     }  
     ## snapshots
+    #### login page
 ![login](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/login.png)
 
+  #### manager page
 ![manager](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/manager.png)
 
+ #### insert values and mail send page
 ![insert and send mail](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/insert%20mail.png)
 
+ #### view all deatails
 ![view](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/view.png)
 
+#### edit details
 ![edit](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/update.png)
 
+#### delate datails
 ![delete](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/delete.png)
 
+#### assistant manager page
 ![assistant manager](https://github.com/vanithavelayutham/servlet/blob/master/webapp/src/main/webapp/image/ass%20manager.png)
 
